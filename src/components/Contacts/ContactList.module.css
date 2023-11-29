@@ -1,0 +1,29 @@
+.contactList {
+  padding-left: 0;
+}
+
+.contactListItem {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  row-gap: 10px;
+  padding: 5px 10px 5px 0;
+  justify-content: space-between;
+}
+
+.btnDelete {
+  padding: 3px;
+  font-size: 12px;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 300 ease;
+}
+
+.btnDelete:hover{
+    transform: scale(1.1)
+    
+}
+
